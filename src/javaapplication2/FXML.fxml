@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication2.FXMLController">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="606.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Pedagogico">
+            <items>
+                  <MenuItem mnemonicParsing="false" text="Lista de chamada" />
+                  <MenuItem mnemonicParsing="false" text="Lista de salas" />
+                  <Menu mnemonicParsing="false" text="Relatorios">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Ocupacao por sala" />
+                        <MenuItem mnemonicParsing="false" text="Quadro de horarios" />
+                        <MenuItem mnemonicParsing="false" text="Analise faltantes" />
+                        <MenuItem mnemonicParsing="false" text="Ocupacao por sala" />
+                     </items>
+                  </Menu>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Financeiro">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Lista de inadimplente" />
+                  <MenuItem mnemonicParsing="false" text="Lista de vencimentos" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Comercial">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Inicio de turma" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Administrativo">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Cadastrar Sala" />
+              <MenuItem mnemonicParsing="false" text="Cadastrar Turma" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Buscar contrato">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Cadastrar Sala" />
+                  <MenuItem mnemonicParsing="false" text="Cadastrar Turma" />
+               </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <ImageView fitHeight="144.0" fitWidth="299.0" layoutX="154.0" layoutY="128.0">
+         <image>
+            <Image url="@LOGO-EXCEL-SITE.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="476.0" layoutY="369.0" prefHeight="17.0" prefWidth="116.0" text="Version Alpha - 1.0.0" />
+   </children>
+</AnchorPane>
